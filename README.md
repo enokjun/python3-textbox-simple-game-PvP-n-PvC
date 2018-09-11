@@ -1,4 +1,4 @@
-# python3-textbox-simple-game-PvP-n-PvC
+# Python3-textbox-simple-game-PvP-n-PvC
 PvP or PvC text input games in Python3
 
 # Game rules
@@ -11,19 +11,19 @@ moves: charge, attack, defend, ult attack, heal
 play-mode: player vs computer (PvC) or player vs player (PvP)
 
 game rules: 
-> p = player, c = computer
+- p = player, c = computer
 
-> p chooses a move to make at each turn
+- p chooses a move to make at each turn
 
-> both p and c has total life of 3
+- both p and c has total life of 3
 
-> to use skills, needs to charge. when charge = 2, can use a skill:
+- to use skills, needs to charge. when charge = 2, can use a skill:
 	
 	- heal (own: life+1; cost: charge=2)
 	
 	- ult attack (enemy: life-2; cost:charge=3)
 
-> depending on these combinations, these outcomes occur:
+- depending on these combinations, these outcomes occur:
 	[/ means or;  | means and; first position is player1 move and second position is computer move]
 	
 	- [c,c], [c,d], [d,d], [a,d], [a,h] = nothing
@@ -42,8 +42,8 @@ game rules:
    
    	- q = quit/surrender
 	
-> charge max = 3
+- charge max = 3
 
-> life max = inital life
+- life max = inital life
 
-> winning condition: enemy (life)<=0
+- winning condition: enemy (life)<=0
